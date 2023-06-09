@@ -1,6 +1,8 @@
+#IDE Setting
+.vscode
+
 # java complied files
 *.class
-
 
 #cpp
 *.exe
