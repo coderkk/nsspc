@@ -6,6 +6,7 @@ public class EX202206 {
         Scanner scan = new Scanner(System.in);
         double m = scan.nextDouble();
         double c = scan.nextDouble();
+        scan.close();
 
         double x1 = ((m + 2) + Math.sqrt(Math.pow((m + 2), 2) + (4 * (c + 3)))) / 2;
         double x2 = ((m + 2) - Math.sqrt(Math.pow((m + 2), 2) + (4 * (c + 3)))) / 2;
