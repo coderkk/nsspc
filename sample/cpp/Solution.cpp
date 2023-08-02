@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main() 
 {
 	std::cout<<"Please enter your Science and Math mark";
