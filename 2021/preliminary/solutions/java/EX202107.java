@@ -10,12 +10,12 @@ class EX202107 {
         int T = scan.nextInt();
         scan.close();
 
-        double A = 0;
+        double A = P;
         int n = 0;
 
         while (A < T) {
             A = P * Math.pow(1 + r, n+1);
-            if (A < T) n++;
+            n++;
         }
 
         System.out.println(n);
